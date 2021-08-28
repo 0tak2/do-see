@@ -27,7 +27,9 @@
    "devDependencies": {
       "@rollup/plugin-commonjs": "^19.0.0",
       "@rollup/plugin-node-resolve": "^13.0.0",
+      "@rollup/plugin-typescript": "^6.0.0",
       "@roxi/routify": "^2.18.1",
+      "@tsconfig/svelte": "^1.0.0",
       "cross-env": "^7.0.3",
       "fs-extra": "^10.0.0",
       "nollup": "^0.16.4",
@@ -44,13 +46,11 @@
       "spank": "^1.7.0",
       "spassr": "^2.6.0",
       "svelte": "^3.38.2",
+      "svelte-check": "^1.0.0",
       "svelte-preprocess": "^4.7.3",
       "tossr": "^1.4.2",
-      "svelte-check": "^1.0.0",
-      "@rollup/plugin-typescript": "^6.0.0",
-      "typescript": "^3.9.3",
       "tslib": "^2.0.0",
-      "@tsconfig/svelte": "^1.0.0"
+      "typescript": "^3.9.3"
    },
    "routify": {
       "extensions": "svelte,html,svx,md"
@@ -60,5 +60,8 @@
       "blacklist": [
          "/example/modal/basic/4"
       ]
+   },
+   "dependencies": {
+      "firebase": "^9.0.0-beta.7"
    }
 }

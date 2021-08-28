@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { firebaseApp } from "./firebase/init";
   import { Router } from "@roxi/routify";
   import { routes } from "../.routify/routes";
 </script>
